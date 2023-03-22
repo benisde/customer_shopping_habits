@@ -12,36 +12,35 @@ Prediction models for Budget vs Revenue based upon popularity of the movies are 
 
 ## Content-based recommendation
 
-1.  Movie recommendaions based upon Keywords  
+1. Movie recommendaions based upon Keywords  
 
-        User gives a Movie Title as an input and based upon the keywords associated, the tool returns top 10 movies.
-
-    ![A screenshot of the result.](Images/Keywords_op.png)
+User gives a Movie Title as an input and based upon the keywords associated, the tool returns top 10 movies.
+![A screenshot of the result.](Images/Keywords_op.png)
 
 
 2.  Movie recommendations for the user based on different genres based upon votes.
     
-        If a user has watched and liked several action movies, the recommendation system might suggest other action movies that have similar content and order by maximum votes received.
+If a user has watched and liked several action movies, the recommendation system might suggest other action movies that have similar content and order by maximum votes received.
 
-    ![A screenshot of the result.](Images/Genre_op.png)
+![A screenshot of the result.](Images/Genre_op.png)
 
 3.  Movie Recommendations for the user on the basis of the mood.
 
-        Assuming the mapping of an user's mood per genre, the Tool recommends the movie ordered by votes 
-    *   Happy mood mapped to 'Comedy'
-    *   Sad mood mapped to 'Drama'
-    *   Excited mood mapped to 'Action'
-    *   Romantic mood mapped to 'Romance'
-    *   Scared mood mapped to 'Horror'
+Assuming the mapping of an user's mood per genre, the Tool recommends the movie ordered by votes 
+*   Happy mood mapped to 'Comedy'
+*   Sad mood mapped to 'Drama'
+*   Excited mood mapped to 'Action'
+*   Romantic mood mapped to 'Romance'
+*   Scared mood mapped to 'Horror'
 
-        
-    ![A screenshot of the result.](Images/Mood_op.png)
-<br>
+![A screenshot of the result.](Images/Mood_op.png)
+
+
 4. Recommendations for cult-classics (High Rating, Low Budget) based on different genres.
 
-    Assuming movies of rating 7.5 and votes atleast above 100 defined the cult-classics recommended movies on the genre provided by the user.
-    
-    ![A screenshot of the result.](Images/cult_classic_op.png)
+Assuming movies of rating 7.5 and votes atleast above 100 defined the cult-classics recommended movies on the genre provided by the user.
+  
+![A screenshot of the result.](Images/cult_classic_op.png)
 
 <br>
 
