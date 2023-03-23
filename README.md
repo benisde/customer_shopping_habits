@@ -1,6 +1,6 @@
 # Movie Recommendation and ROI models analysis
 
-This represents an AI tool that is a content-based filtering method for movie recommendations to suggest movies to users based on the movies' content and the users' preferences.
+Our goal was to develop an AI tool that is a content-based filtering method for movie recommendations to suggest movies to users based on the movies' content and the users' preferences.
 
 The system analyzes the content of the movies, such as their genre, keywords, the mood of the users, and cult classics per genre, and uses this information to determine which films are similar to each other.
 
@@ -13,7 +13,7 @@ Prediction models for Budget vs Revenue based on the popularity of the movies ar
 
 ## Content-based recommendation
 
-1. Movie recommendaions based upon Keywords  
+1. Movie recommendations based upon Keywords  
 
 The user gives a Movie Title as input and based on the keywords associated, the tool returns the top 10 movies.
 ![A screenshot of the result.](Images/Keywords_op.png)
@@ -25,7 +25,7 @@ If a user has watched and liked several action movies, the recommendation system
 
 ![A screenshot of the result.](Images/Genre_op.png)
 
-3.  Movie Recommendations for the user on the basis of the mood.
+3.  Movie Recommendations for the user on the basis of their mood.
 
 Assuming the mapping of a user's mood per genre, the Tool recommends the movie ordered by votes 
 *   Happy mood mapped to 'Comedy'
@@ -45,7 +45,7 @@ Assuming a movie of rating 7.5 and votes at least above 100 defined the cult-cla
 
 <br>
 
-## Analysis of various factorsfor ROI (Revenue vs Budget)
+## Analysis of various factors for ROI (Revenue vs Budget)
 
 ![A screenshot of the result.](Images/ROI_op.png)
 
